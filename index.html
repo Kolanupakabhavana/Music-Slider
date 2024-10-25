@@ -1,0 +1,121 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player  </title> 
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href = "music.css">
+
+<div class="album-cover">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9_aIAOKIt8KbBFxWqjHIj1DIYYoX6vPvjIQ&s" />
+                <div class="overlay">
+                  <a
+                    href="https://youtu.be/mRD0-GxqHVo?si=ZBlfiwo0hczLKPE0"
+                    target="_blank"
+                    ><ion-icon name="logo-youtube"></ion-icon
+                  ></a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://i1.sndcdn.com/artworks-000134221969-qm51lu-t500x500.jpg" />
+                <div class="overlay">
+                  <a
+                    href="https://youtu.be/dodDteh-m3Q?si=gFtfkSjf_jPOZivj"
+                    target="_blank"
+                    ><ion-icon name="logo-youtube"></ion-icon
+                  ></a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://i.pinimg.com/736x/3b/1c/d9/3b1cd93ad108a67ad45d788c003664b8.jpg" />
+                <div class="overlay">
+                  <a
+                    href="https://youtu.be/zpsVpnvFfZQ?si=fGNPkGGhzFjDqh8E"
+                    target="_blank"
+                    ><ion-icon name="logo-youtube"></ion-icon
+                  ></a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://a10.gaanacdn.com/gn_img/song/Oxd3xP3gVY/d3xAqzYYWg/size_m_1580787370.jpg" />
+                <div class="overlay">
+                  <a
+                    href="https://youtu.be/5LBB6OV3Ano?si=oGu1kgT4-RiLACAX"
+                    target="_blank"
+                    ><ion-icon name="logo-youtube"></ion-icon
+                  ></a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/en/2/22/Jeena_Jeena_%282015%29_-_Album_Cover.jpeg" />
+                <div class="overlay">
+                  <a
+                    href="https://youtu.be/zFdi834FiZ4?si=kU0Z1Gv8cVYsW_3Z"
+                    target="_blank"
+                    ><ion-icon name="logo-youtube"></ion-icon
+                  ></a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://i.ytimg.com/vi/ZxvnXqqzgvU/hqdefault.jpg" />
+                <div class="overlay">
+                  <a
+                    href="https://youtu.be/5wPsx84LPag?si=T2hnvmYVKl6bDacR"
+                    target="_blank"
+                    ><ion-icon name="logo-youtube"></ion-icon
+                  ></a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/23e440e5-a0fa-4a85-8175-bcc485a20ee6" />
+                <div class="overlay">
+                  <a
+                    href="https://www.youtube.com/watch?v=tCXGJQYZ9JA&ab_channel=TaylorSwiftVEVO"
+                    target="_blank"
+                    ><ion-icon name="logo-youtube"></ion-icon
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="music-player">
+          <h1>Title</h1>
+          <p>Song Name</p>
+    
+          <audio id="song">
+            <source src="song-list/Luke-Bergs-Gold.mp3" type="audio/mpeg" />
+          </audio>
+    
+          <input type="range" value="0" id="progress" />
+    
+          <div class="controls">
+            <button class="backward">
+              <i class="fa-solid fa-backward"></i>
+            </button>
+            <button class="play-pause-btn">
+              <i class="fa-solid fa-play" id="controlIcon"></i>
+            </button>
+            <button class="forward">
+              <i class="fa-solid fa-forward"></i>
+            </button>
+          </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src ="music.js"></script>
+</html>        
